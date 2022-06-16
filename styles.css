@@ -9,3 +9,12 @@ html, body {
     justify-content: center;
     align-items: center;
 }
+
+.card {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: grey;
+    border-width: 5px;
+    min-width: 25%;
+    min-height: 50%;
+}
