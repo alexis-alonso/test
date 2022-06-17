@@ -8,6 +8,8 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgba(255,255,255,1);
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 55%, rgba(237,237,237,1) 100%);
 }
 
 .card {
@@ -17,6 +19,8 @@ html, body {
     border-width: 5px;
     min-width: 25%;
     min-height: 50%;
+    background-color: white;
+
 }
 
 /* tryna sync this up to github w/other client */
