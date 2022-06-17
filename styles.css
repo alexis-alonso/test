@@ -20,7 +20,25 @@ html, body {
     min-width: 25%;
     min-height: 50%;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+}
 
+#user {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+#pass {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#the-button {
+    margin-left: 25%;
+    margin-right: 25%;
+    
 }
 
 /* tryna sync this up to github w/other client */
