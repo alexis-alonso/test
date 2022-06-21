@@ -32,19 +32,24 @@ html, body {
     text-align: center;    
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .fields {
     margin-left: 25%;
     margin-right: 25%;
     border: none;
+    border-bottom: 1px solid;
     font-size: 18px;
     display: flex;
+    justify-content: space-between;
 }
 
 #the-button {
-    margin-left: 25%;
-    margin-right: 25%;
-    
+    margin: 0 auto;
+    vertical-align: middle;
+    border-radius: 111px 111px 111px 111px;
+    border: 0px solid #000000;
 }
 
