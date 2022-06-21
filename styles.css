@@ -26,7 +26,7 @@ html, body {
     border-width: 5px;
     min-width: 25%;
     min-height: 32%;
-    box-shadow: 21px 10px 40px 0px rgba(73,135,74,1);   
+    box-shadow: 21px 10px 40px -10px rgba(73,135,74,1);    
     background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(145,232,66,0.51) 100%);
     font-family: Calibri;
     text-align: center;    
