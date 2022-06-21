@@ -3,11 +3,12 @@ html, body {
 }
 
 .backg {
-    background-image: url('https://as2.ftcdn.net/v2/jpg/03/25/78/61/1000_F_325786177_NrmpejI9DUyRkIejQetD7UIOOGbYgBbu.jpg');
+    background-image: url('https://img.freepik.com/free-vector/vector-images-forest-daytime_46176-155.jpg?w=2000');
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
 }
 
 .container {
@@ -16,8 +17,6 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: rgba(255,255,255,1);
-    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 55%, rgba(237,237,237,1) 100%); */
 }
 
 .card {
@@ -26,21 +25,21 @@ html, body {
     border-color: grey;
     border-width: 5px;
     min-width: 25%;
-    min-height: 50%;
-    background-color: white;
+    min-height: 32%;
+    box-shadow: 21px 10px 40px 0px rgba(73,135,74,1);   
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(145,232,66,0.51) 100%);
+    font-family: Calibri;
+    text-align: center;    
     display: flex;
     flex-direction: column;
 }
 
-#user {
+.fields {
     margin-left: 25%;
     margin-right: 25%;
-}
-
-
-#pass {
-    margin-left: 25%;
-    margin-right: 25%;
+    border: none;
+    font-size: 18px;
+    display: flex;
 }
 
 #the-button {
@@ -49,4 +48,3 @@ html, body {
     
 }
 
-/* tryna sync this up to github w/other client */
